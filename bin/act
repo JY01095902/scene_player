@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'scene_player'
+
+puts Scene_Player.hi(ARGV[0])
