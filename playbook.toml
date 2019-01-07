@@ -1,0 +1,29 @@
+title = "GEM Commands"
+
+# build hola.gemspec
+# install ./hola-0.0.0.gem
+# gem push hola-0.0.0.gem
+
+[[scenes]]
+name = "build"
+place = "/Users/shiyanxun/Documents/projects/ruby/scene_player"
+# props = ["playbook.toml"]
+actions = [
+    "gem build scene_player.gemspec"
+]
+
+[[scenes]]
+name = "install"
+place = "/Users/shiyanxun/Documents/projects/ruby/scene_player"
+# props = ["playbook.toml"]
+actions = [
+    "gem install ./scene_player-0.0.1.gem"
+]
+
+[[scenes]]
+name = "push"
+place = "/Users/shiyanxun/Documents/projects/ruby/scene_player"
+# props = ["playbook.toml"]
+actions = [
+    "gem push scene_player-0.0.1.gem"
+]

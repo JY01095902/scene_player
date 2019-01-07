@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'scene_player'
+require 'main'
 
-puts Scene_Player.hi(ARGV[0])
+run(ARGV[0])

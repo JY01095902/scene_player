@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
     s.description = "A simple hello world gem"
     s.authors     = ["Shi Yanxun"]
     s.email       = 'jy01095902@126.com'
-    s.files       = ["lib/scene_player.rb", "lib/domain/scene.rb"]
+    s.files       = ["lib/main.rb", "lib/scene_player.rb", "lib/domain/scene.rb"]
     s.homepage    =
       'http://rubygems.org/gems/scene_player'
     s.license       = 'MIT'
