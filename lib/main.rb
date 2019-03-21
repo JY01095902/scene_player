@@ -3,6 +3,11 @@ require_relative "domain/scene.rb"
 require "pp"
 
 def run(scene_name)
+    if scene_name == "-v"
+        puts "0.0.3"
+        return
+    end
+
     dir_pwd = Dir.pwd
     filepath = File.join(dir_pwd, 'playbook.toml')
     playbook = TOML.load_file(filepath)
@@ -13,7 +18,7 @@ def run(scene_name)
         puts "没有名称为#{scene_name}的场景"
     else
         place = scene.place
-        goToPlace = "cd #{place}"
+        goToPlace = (place.start_with? "~") ? "cd #{dir_pwd + place[1..-1]}" : "cd #{place}"
         actions = scene.actions
         commands = Array.new
         props = scene.props
