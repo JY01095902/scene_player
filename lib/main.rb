@@ -18,7 +18,8 @@ def run(scene_name)
         puts "没有名称为#{scene_name}的场景"
     else
         place = scene.place
-        goToPlace = (place.start_with? "~") ? "cd #{dir_pwd + place[1..-1]}" : "cd #{place}"
+        place = (place.start_with? "~") ? dir_pwd + place[1..-1] : place
+        goToPlace = "cd #{place}"
         actions = scene.actions
         commands = Array.new
         props = scene.props

@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
     s.name        = 'scene_player'
-    s.version     = '0.0.3'
-    s.date        = '2019-03-21'
+    s.version     = '0.0.4'
+    s.date        = '2019-03-22'
     s.summary     = "Scene Player!"
     s.description = "A simple hello world gem"
     s.authors     = ["Shi Yanxun"]

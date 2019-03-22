@@ -17,7 +17,7 @@ name = "install"
 place = "/Users/shiyanxun/Documents/projects/ruby/scene_player"
 # props = ["playbook.toml"]
 actions = [
-    "gem install ./scene_player-0.0.3.gem"
+    "gem install ./scene_player-0.0.4.gem"
 ]
 
 [[scenes]]
@@ -25,7 +25,7 @@ name = "push"
 place = "/Users/shiyanxun/Documents/projects/ruby/scene_player"
 # props = ["playbook.toml"]
 actions = [
-    "gem push scene_player-0.0.3.gem"
+    "gem push scene_player-0.0.4.gem"
 ]
 
 [[scenes]]
