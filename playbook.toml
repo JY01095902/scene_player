@@ -6,7 +6,7 @@ title = "GEM Commands"
 
 [[scenes]]
 name = "build"
-place = "/Users/shiyanxun/Documents/projects/ruby/scene_player"
+place = "~/"
 # props = ["playbook.toml"]
 actions = [
     "gem build scene_player.gemspec"
@@ -14,18 +14,18 @@ actions = [
 
 [[scenes]]
 name = "install"
-place = "/Users/shiyanxun/Documents/projects/ruby/scene_player"
+place = "~/"
 # props = ["playbook.toml"]
 actions = [
-    "gem install ./scene_player-0.0.4.gem"
+    "gem install ./scene_player-0.0.5.gem"
 ]
 
 [[scenes]]
 name = "push"
-place = "/Users/shiyanxun/Documents/projects/ruby/scene_player"
+place = "~/"
 # props = ["playbook.toml"]
 actions = [
-    "gem push scene_player-0.0.4.gem"
+    "gem push scene_player-0.0.5.gem"
 ]
 
 [[scenes]]
