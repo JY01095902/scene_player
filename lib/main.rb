@@ -1,6 +1,5 @@
 require "toml"
 require_relative "domain/scene.rb"
-require "pp"
 
 def run(scene_name)
     if scene_name == "-v"

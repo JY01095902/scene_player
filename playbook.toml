@@ -17,7 +17,7 @@ name = "install"
 place = "~/"
 # props = ["playbook.toml"]
 actions = [
-    "gem install ./scene_player-0.0.5.gem"
+    "gem install ./scene_player-0.0.6.gem"
 ]
 
 [[scenes]]
@@ -25,7 +25,7 @@ name = "push"
 place = "~/"
 # props = ["playbook.toml"]
 actions = [
-    "gem push scene_player-0.0.5.gem"
+    "gem push scene_player-0.0.6.gem"
 ]
 
 [[scenes]]
